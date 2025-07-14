@@ -39,7 +39,8 @@ A powerful, extensible chatbot flow builder with drag-and-drop interface, real-t
 
 ### Live Links
 1) https://chatbot-flow-builder-cr3n.vercel.app/
-2) chatbot.adarshvault.me 
+
+2) https://chatbot.adarshvault.me/
 
 
 ## 🎮 How to Use

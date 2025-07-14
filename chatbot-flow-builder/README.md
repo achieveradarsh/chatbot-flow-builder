@@ -37,29 +37,10 @@ A powerful, extensible chatbot flow builder with drag-and-drop interface, real-t
 - Node.js 18+
 - npm or yarn
 
-### Installation
-\`\`\`bash
-# Clone the repository
-git clone <your-repo-url>
-cd chatbot-flow-builder
+### Live Links
+1) https://chatbot-flow-builder-cr3n.vercel.app/
+2) chatbot.adarshvault.me 
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Open http://localhost:3000
-\`\`\`
-
-### Production Build
-\`\`\`bash
-# Build for production
-npm run build
-
-# Start production server
-npm start
-\`\`\`
 
 ## 🎮 How to Use
 

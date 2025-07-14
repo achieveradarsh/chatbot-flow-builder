@@ -102,41 +102,6 @@ npm start
 - ✅ One outgoing connection per source handle
 - ✅ Multiple incoming connections per target handle allowed
 
-## 🏗️ Architecture
-
-### Project Structure
-\`\`\`
-components/
-├── nodes/              # Node type components
-│   ├── text-node.tsx   # Core: Message node
-│   ├── image-node.tsx  # Add-on: Image with upload
-│   └── button-node.tsx # Add-on: Quick replies
-├── panels/             # UI panels
-│   ├── nodes-panel.tsx # Organized by feature type
-│   ├── settings-panel.tsx # Context-aware settings
-│   └── preview-panel.tsx  # Real-time chat simulation
-└── ui/                 # Reusable components
-
-lib/
-├── node-types.ts       # Node registry
-└── flow-validation.ts  # Validation logic
-\`\`\`
-
-### Strategic Feature Organization
-\`\`\`
-Core Features (Requested)
-├── ✅ Message Node
-
-Add-on Features (Bonus) 
-├── ✅ Image Node (with file upload!)
-├── ✅ Button Node  
-└── ✅ Real-time Preview
-
-Advanced Features (Coming Soon)
-├── 🔶 Condition Node
-├── 🔶 Delay Node
-└── 🔶 API Integration
-\`\`\`
 
 ## 🎨 UI/UX Features
 
@@ -158,36 +123,6 @@ Advanced Features (Coming Soon)
 - **URL Support**: External image links
 - **Live Preview**: Real-time image display
 - **Error Handling**: Graceful fallbacks
-
-## 🚀 Deployment Guide
-
-### Environment Setup
-This application is ready for production deployment with **no environment variables required**.
-
-### Vercel Deployment (Recommended)
-1. **Download Code**: Use the "Download Code" button in v0
-2. **Upload to GitHub**: Create new repository and push code
-3. **Deploy to Vercel**:
-   \`\`\`bash
-   # Install Vercel CLI
-   npm i -g vercel
-   
-   # Deploy
-   vercel
-   \`\`\`
-4. **Or use Vercel Dashboard**: Connect your GitHub repo
-
-### Other Platforms
-- **Netlify**: `npm run build` then drag `out` folder
-- **AWS Amplify**: Connect GitHub repo
-- **Docker**: Dockerfile included for containerization
-
-### Production Checklist
-- ✅ No localhost references
-- ✅ No environment variables needed
-- ✅ Static assets properly handled
-- ✅ Build optimization enabled
-- ✅ Error boundaries implemented
 
 ## 🛠️ Technical Stack
 
@@ -235,8 +170,3 @@ This application is ready for production deployment with **no environment variab
 
 MIT License - Use this as foundation for your chatbot builders!
 
----
-
-**🚀 Ready for Production Deployment!**
-
-*Built with ❤️ for creating amazing chatbot experiences*
